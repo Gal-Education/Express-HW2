@@ -1,0 +1,11 @@
+<div class="panel panel-default" *ngIf="favoritesOfUser!=null">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{favoritesOfUser.user}}</h3>
+  </div>
+  <div class="panel-body">
+		<li><span>Movie Name:</span> {{favoritesOfUser.Ufavorites[0].Name}}</li>
+		<li><span>Rating:</span> {{favoritesOfUser.Ufavorites[0].Rating}}</li>
+		<li><span>Month:</span> {{favoritesOfUser.Ufavorites[0].Month}}</li>
+		<li><span>Category:</span> {{favoritesOfUser.Ufavorites[0].Category}}</li>
+  </div>
+</div>
